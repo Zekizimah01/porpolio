@@ -1,1 +1,122 @@
-# porpolio
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio Zeki Zimah</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f2f5;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #6366f1, #4f46e5);
+      padding: 60px 20px 40px;
+      color: white;
+      text-align: center;
+    }
+
+    .profile-img {
+      width: 120px;
+      height: 110px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-top: -65px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 15px 0;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #4f46e5;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #e0e7ff;
+      color: #333;
+      margin-top: 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #4f46e5;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 15px;
+    }
+
+    .btn:hover {
+      background: #3730a3;
+    }
+
+    @media (max-width: 600px) {
+      .profile-img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Zeki Zimah</h1>
+    <p>Web Developer | UI Designer | Freelancer</p>
+  </header>
+
+  <div class="container">
+    <!-- Foto Profil -->
+    <div style="text-align: center;">
+      <img src="poto.jpg" alt="poto saya" class="profile-img" />
+    </div>
+
+    <!-- Tentang Saya -->
+    <div class="card">
+      <h2>Tentang Saya</h2>
+      <p>Saya adalah seorang web developer yang menyukai desain bersih dan responsif. Saya memiliki pengalaman membuat website statis maupun dinamis menggunakan HTML, CSS, dan JavaScript.</p>
+    </div>
+
+    <!-- Proyek -->
+    <div class="card">
+      <h2>Proyek Terbaru</h2>
+      <ul>
+        <li>Landing Page Produk Digital</li>
+        <li>Website Sekolah Interaktif</li>
+        <li>Mini Aplikasi To-Do List</li>
+      </ul>
+    </div>
+
+    <!-- Kontak -->
+    <div class="card">
+      <h2>Kontak Saya</h2>
+      <p>Email: zakicrp300@email.com</p>
+      <p>WhatsApp: 0838-5298-9829</p>
+      <a href="mailto:zakicrp300@email.com" class="btn">Kirim Email</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Zeki Zimah. Dibuat dengan ❤ dan semangat belajar.
+  </footer>
+</body>
+</html>
